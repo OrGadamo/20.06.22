@@ -126,9 +126,9 @@ function printObjArray(objArr) {
 }
 //11,12,13,14
 class Course {
-  constructor(firstName, teacher, gradeList, studentList) {
+  constructor(firstName, isTeacher, gradeList, studentList) {
     this.firstName = firstName;
-    this.teacher = teacher;
+    this.istTeacher = isTeacher;
     this.gradeList = gradeList;
     this.studentList = studentList;
   }
